@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">MedicalOnlineApp</string>
+    <string name="button_text">Log In</string>
+    <string name="log_in">Log In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="create_pass">Create Password</string>
+    <string name="confirm_pas">Confirm Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="title_activity_insurance">Insurance</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="comprehensive">Comprehensive Health Cover
+        <string name="protect_you">Protect yourself and your family</string>
+
+</string>
+</resources>

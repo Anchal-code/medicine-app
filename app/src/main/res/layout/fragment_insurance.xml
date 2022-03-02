@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Insurance">
+
+    <ImageView
+        android:id="@+id/rectangle66_1"
+        android:layout_width="360dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/rectangle66"
+        android:elevation="3dp"
+        />
+    <ImageView
+    android:id="@+id/rectangle59_1"
+    android:layout_width="316dp"
+    android:layout_height="139dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="22dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="86dp"
+    android:background="@drawable/rectangle59"
+    android:elevation="3dp"
+    />
+
+    <ImageView
+        android:id="@+id/pikpng1"
+        android:layout_width="56dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="268dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp"
+        android:background="@drawable/pikpng1"
+        />
+
+    <TextView
+        android:id="@+id/comprehensive"
+        android:layout_width="170dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="102dp"
+        android:gravity="top"
+        android:text="Comprehensive Health Cover"
+        android:textAppearance="@style/comprehensive"
+        android:textSize="12dp"
+        android:lineHeight="14.06dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:id="@+id/protect_you"
+        android:layout_width="113dp"
+        android:layout_height="9dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
+        android:text="Protect yourself and your family"
+        android:textAppearance="@style/protect_you"
+        android:gravity="top"
+        android:textSize="8dp"
+        android:lineHeight="9.38dp"
+        />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rectangle59g"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/rectangle59g"
+        android:elevation="4dp"
+        android:text="BUY NEW PLAN"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
+        />
+    <ImageView
+        android:id="@+id/rectangle66"
+        android:layout_width="316dp"
+        android:layout_height="139dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/rectangle66"
+        android:elevation="3dp"
+        />
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="74dp"
+        android:layout_height="71dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="254dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/image1"
+        />
+
+
+
+
+
+</FrameLayout>
