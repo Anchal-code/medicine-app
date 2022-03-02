@@ -17,6 +17,10 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="comprehensive">Comprehensive Health Cover
         <string name="protect_you">Protect yourself and your family</string>
+        <string name="upload_your">Upload  your prescription</string>
+
 
 </string>
+    <string name="upload_now">Upload now</string>
+    <string name="don_t_have_a_prescription">Don\'t have a prescription?</string>
 </resources>
