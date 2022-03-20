@@ -1,248 +1,110 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".Insurance">
-<com.google.android.material.appbar.MaterialToolbar
-    android:id="@+id/toolbar"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content"
-    app:title="   Insurance"
-    app:layout_constraintStart_toStartOf="parent"
-    app:layout_constraintTop_toTopOf="parent"
-    android:background="#E5E5E5"/>
 
-    //below code for 1 card
-    <View
-        android:id="@+id/insurance_v1"
-        android:layout_width="316dp"
-        android:layout_height="139dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/toolbar"
-        android:layout_marginTop="60dp"
-        android:layout_marginStart="22dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="22dp"
+    <ImageView
+        android:id="@+id/rectangle66_1"
+        android:layout_width="360dp"
+        android:layout_height="49dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="-24dp"
+        android:background="@drawable/rectangle66"
         android:elevation="3dp"
-
         />
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/img1"
-        app:layout_constraintTop_toTopOf="@id/insurance_v1"
-        app:layout_constraintEnd_toEndOf="@id/insurance_v1"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="14dp"/>
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/insurance_v1"
-        app:layout_constraintStart_toStartOf="@id/insurance_v1"
-        android:layout_marginTop="87dp"
-        android:layout_marginStart="90dp"
-        app:cornerRadius="45dp"
-        android:textColor="@color/white"
-        android:text="BUY NEW PLAN"
-        android:background="@drawable/insurance_button_back"/>
+    android:id="@+id/rectangle59_1"
+    android:layout_width="316dp"
+    android:layout_height="139dp"
+    android:layout_alignParentLeft="true"
+    android:layout_marginLeft="22dp"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="86dp"
+    android:background="@drawable/rectangle59"
+    android:elevation="3dp"
+    />
+
+    <ImageView
+        android:id="@+id/pikpng1"
+        android:layout_width="56dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="268dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="101dp"
+        android:background="@drawable/pikpng1"
+        />
+
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/comprehensive"
+        android:layout_width="170dp"
         android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/insurance_v1"
-        app:layout_constraintStart_toStartOf="@id/insurance_v1"
-        android:text="Comprhensive Health Cover"
-        android:layout_marginStart="18dp"
-        android:textColor="@color/black"
-        android:layout_marginTop="16dp"
-        android:textSize="12sp"/>
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="102dp"
+        android:gravity="top"
+        android:text="Comprehensive Health Cover"
+        android:textAppearance="@style/comprehensive"
+        android:textSize="12dp"
+        android:lineHeight="14.06dp"
+        android:textStyle="bold"/>
     <TextView
         android:id="@+id/protect_you"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        app:layout_constraintTop_toTopOf="@id/insurance_v1"
-        app:layout_constraintStart_toStartOf="@id/insurance_v1"
-        android:textSize="10sp"
-        android:textColor="@color/black"
+        android:layout_width="113dp"
+        android:layout_height="9dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="118dp"
         android:text="Protect yourself and your family"
-        android:layout_marginTop="34dp"
-        android:layout_marginStart="18dp"
+        android:textAppearance="@style/protect_you"
+        android:gravity="top"
+        android:textSize="8dp"
+        android:lineHeight="9.38dp"
         />
 
-    //below code for second card
-
-    <View
-        android:id="@+id/insurance_v2"
-        android:layout_width="316dp"
-        android:layout_height="139dp"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/insurance_v1"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="22dp"
-        android:elevation="3dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginEnd="22dp"
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/rectangle59g"
+        android:layout_width="136dp"
+        android:layout_height="48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="112dp"
+        android:layout_marginTop="173dp"
+        android:background="@drawable/rectangle59g"
+        android:elevation="4dp"
+        android:text="BUY NEW PLAN"
+        android:textAllCaps="false"
+        android:textColor="@color/white"
         />
     <ImageView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/img2"
-        app:layout_constraintTop_toTopOf="@id/insurance_v2"
-        app:layout_constraintEnd_toEndOf="@id/insurance_v2"
-        android:layout_marginTop="15dp"
-        android:layout_marginEnd="14dp"/>
-    <com.google.android.material.button.MaterialButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/insurance_v2"
-        app:layout_constraintStart_toStartOf="@id/insurance_v2"
-        android:layout_marginTop="87dp"
-        android:layout_marginStart="90dp"
-        app:cornerRadius="45dp"
-        android:textColor="@color/white"
-        android:text="BUY HEALTH CARD"
-        android:background="@drawable/insurance_button_back"/>
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:layout_constraintTop_toTopOf="@id/insurance_v2"
-        app:layout_constraintStart_toStartOf="@id/insurance_v2"
-        android:text="Buy Health Cards"
-        android:layout_marginStart="18dp"
-        android:textColor="@color/black"
-        android:layout_marginTop="16dp"
-        android:textSize="12sp"/>
-    <TextView
-        android:id="@+id/insurance_tv1"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:gravity="top"
-        app:layout_constraintTop_toTopOf="@id/insurance_v2"
-        app:layout_constraintStart_toStartOf="@id/insurance_v2"
-        android:textSize="10sp"
-        android:textColor="@color/black"
-        android:text="Protect yourself and your family"
-        android:layout_marginTop="34dp"
-        android:layout_marginStart="18dp"
+        android:id="@+id/rectangle66"
+        android:layout_width="316dp"
+        android:layout_height="139dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="22dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="235dp"
+        android:background="@drawable/rectangle66"
+        android:elevation="3dp"
+        />
+    <ImageView
+        android:id="@+id/image_1"
+        android:layout_width="74dp"
+        android:layout_height="71dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="254dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="248dp"
+        android:background="@drawable/image1"
         />
 
-    <com.google.android.material.bottomnavigation.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@color/green"
-        app:layout_constraintBottom_toBottomOf="parent" >
-
-        <Button
-            android:layout_width="18dp"
-            android:layout_height="20dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/vector"
-            android:layout_marginTop="19dp"
-            android:layout_marginBottom="19dp"
-            android:layout_marginLeft="43dp"
-            android:layout_marginRight="299dp"/>
-
-        <Button
-            android:layout_width="6dp"
-            android:layout_height="10dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/vec"
-            android:layout_marginTop="29dp"
-            android:layout_marginBottom="19dp"
-            android:layout_marginLeft="49dp"
-            android:layout_marginRight="305dp"
-
-            />
-
-        <Button
-            android:layout_width="18dp"
-            android:layout_height="20dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/vec2"
-            android:layout_marginRight="131dp"
-            android:layout_marginLeft="211dp"
-            android:layout_marginBottom="19dp"
-            android:layout_marginTop="19dp"
-            android:layout_gravity="right"
-            />
-        <Button
-            android:layout_width="18dp"
-            android:layout_height="0dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/vec3"
-            android:layout_marginRight="131dp"
-            android:layout_marginLeft="211dp"
-            android:layout_marginBottom="35dp"
-            android:layout_marginTop="23dp"
-            android:layout_gravity="right"
-            />
-        <Button
-            android:layout_width="8dp"
-            android:layout_height="4dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/vec4"
-            android:layout_marginRight="136dp"
-            android:layout_marginLeft="216dp"
-            android:layout_marginBottom="27dp"
-            android:layout_marginTop="27dp"
-            android:layout_gravity="right"
-
-            />
-        <Button
-            android:layout_width="16dp"
-            android:layout_height="6dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/vec5"
-            android:layout_marginTop="32dp"
-            android:layout_marginBottom="20dp"
-            android:layout_marginLeft="297dp"
-            android:layout_marginRight="47dp"
-            android:layout_gravity="end"
-            />
-
-        <Button
-            android:layout_width="8dp"
-            android:layout_height="8dp"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentTop="true"
-            android:layout_alignParentBottom="true"
-            android:background="@drawable/vec5"
-            android:layout_marginTop="20dp"
-            android:layout_marginBottom="30dp"
-            android:layout_marginRight="51dp"
-            android:layout_marginLeft="301dp"
-            android:layout_gravity="end"
-            />
 
 
 
 
-
-
-        
-
-    </com.google.android.material.bottomnavigation.BottomNavigationView>
-
-</androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
